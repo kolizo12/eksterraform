@@ -3,7 +3,7 @@ on: [pull_request,push]
 
 jobs:
   wiz-cli-iac-scan:
-    name: 'Wiz-cli IaC '
+    name: 'Wiz-cli IaC scanning'
     runs-on: ubuntu-latest
     env:
       SCAN_PATH: "." # Set the relative path in the repo to scan
