@@ -30,4 +30,4 @@ jobs:
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
 
     - name: Run wiz-cli IaC scan
-      run: ./wizcli iac scan --path "${{env.SCAN_PATH}}" --policy "${{env.POLICY}}"
+      run: ./wizcli iac scan --path "${{env.SCAN_PATH}}" --name "https://github.com/kolizo12/eksterraform" --policy "${{env.POLICY}}"
