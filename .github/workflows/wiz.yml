@@ -9,6 +9,7 @@ jobs:
       SCAN_PATH: "./" # Set the relative path in the repo to scan
       POLICY: "Default IaC policy" # Set the desired Wiz-cli policy to use
       #WIZ_ENV: "test"
+      NAME: "https://github.com/kolizo12/eksterraform"
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
